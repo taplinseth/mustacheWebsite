@@ -1,0 +1,41 @@
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 300px;
+}
+
+
+.header-logo div {
+    margin-top: -75px;
+    text-align: center;
+    font-size: 525%;
+    text-size-adjust: auto;
+    color: black;
+    font-family: 'Marck Script', cursive;
+}
+
+header nav {
+    text-align: center;
+    font-size: 100%;
+    word-spacing: 40px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bolder;
+    margin-top: 1%;
+    list-style-type: none;
+}
+
+header nav a {
+    color: black;
+}
+
+header nav a:hover {
+    color: #0AA39C;
+}
+
+.current-page {
+    color:#0AA39C;
+}
+
+
