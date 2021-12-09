@@ -38,4 +38,26 @@ header nav a:hover {
     color:#0AA39C;
 }
 
+footer div {
+    display: flex;
+    background-color: #252525;
+    height: 125px;
+}
+
+footer div p {
+    width: 75%;
+    color: white;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+footer div ul li {
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+footer div ul li a {
+    color: white;
+}
 
