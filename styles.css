@@ -14,12 +14,13 @@ header img {
 }
 
 .header-logo div {
-    margin-top: -75px;
+    margin-top: -60px;
     text-align: center;
-    font-size: 500%;
+    font-size: 400%;
     text-size-adjust: auto;
     color: black;
-    font-family: 'Marck Script', cursive;
+    font-family: 'Yellowtail', cursive;
+    text-transform: uppercase;
 }
 
 header nav {
@@ -236,4 +237,35 @@ footer div ul li {
     font-size: 17px;
     margin-top: 25px;
     margin-bottom: -10px;
+}
+
+.main-gallery {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-areas: 
+        "... section ...";
+}
+
+.main-gallery section {
+    grid-area: section;
+    text-align: center;
+}
+
+.main-gallery h1 {
+    background-color: #252525;
+    color: white;
+    height: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface';
+    width: 20%;
+    margin: 40px auto 10px auto;
+    font-size: 200%;
+}
+
+.main-gallery section img {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
 }
