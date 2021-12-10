@@ -1,16 +1,22 @@
+body {
+    margin: 0px;
+}
+header{
+    height: 200px;
+}
+
 header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
-    width: 300px;
+    margin-top: 1%;
+    height: 125px;
 }
-
 
 .header-logo div {
     margin-top: -75px;
     text-align: center;
-    font-size: 525%;
+    font-size: 500%;
     text-size-adjust: auto;
     color: black;
     font-family: 'Marck Script', cursive;
@@ -22,7 +28,7 @@ header nav {
     word-spacing: 40px;
     font-family: 'Maven Pro', sans-serif;
     font-weight: bolder;
-    margin-top: 1%;
+    margin-bottom: 2px;
     list-style-type: none;
 }
 
@@ -36,6 +42,71 @@ header nav a:hover {
 
 .current-page {
     color:#0AA39C;
+}
+
+.section1-home {
+    margin-top: 1%;
+    height: 1000px;
+}
+
+.background-image-home {
+    background-image: url("images/background-imageHome.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.section1-home h1 {
+    color: black;
+    text-align: center;
+    background-color: white;
+    border: solid 10px white;
+    margin-top: -35%;
+    margin-left: 50%;
+    height: 25px;
+    width: 27%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+#sub-text1, #sub-text2, #sub-text3 {
+    text-align: center;
+    color: white;
+    background-color: #252525;
+    border: solid 6px #252525;
+    margin-left: 50%;
+    margin-bottom: 5px;
+}
+
+#sub-text1 {
+    width: 22%;
+}
+#sub-text2 {
+    width: 19%;
+}
+#sub-text3 {
+    width: 17%;
+}
+
+#read-more {
+    display: block;
+    color: black;
+    text-align: center;
+    background-color: #0AA39C;
+    margin-top: -35%;
+    margin-left: 50%;
+    height: 30px;
+    width: 8%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+
+#read-more:hover {
+    background-color: turquoise;
 }
 
 footer div {
