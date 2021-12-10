@@ -39,6 +39,9 @@ header nav a {
 header nav a:hover {
     color: #0AA39C;
 }
+main {
+    font-family: 'Abril Fatface';
+}
 
 .current-page {
     color:#0AA39C;
@@ -46,14 +49,14 @@ header nav a:hover {
 
 .section1-home {
     margin-top: 1%;
-    height: 1000px;
+    height: 700px;
 }
 
 .background-image-home {
     background-image: url("images/background-imageHome.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 100%;
 }
 
 .section1-home h1 {
@@ -61,13 +64,15 @@ header nav a:hover {
     text-align: center;
     background-color: white;
     border: solid 10px white;
-    margin-top: -35%;
+    margin-top: -500px;
     margin-left: 50%;
-    height: 25px;
+    height: 4%;
     width: 27%;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-weight: bold;
+    font-weight: 900;
+    font-family: 'Abril Fatface';
+    font-size: 180%;
 }
 
 #sub-text1, #sub-text2, #sub-text3 {
@@ -77,6 +82,7 @@ header nav a:hover {
     border: solid 6px #252525;
     margin-left: 50%;
     margin-bottom: 5px;
+    font-family: 'Abril Fatface';
 }
 
 #sub-text1 {
@@ -91,24 +97,57 @@ header nav a:hover {
 
 #read-more {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     background-color: #0AA39C;
     margin-top: -35%;
     margin-left: 50%;
-    height: 30px;
+    height: 6%;
     width: 8%;
-    padding-top: 15px;
-    padding-bottom: 5px;
+    padding-top: 20px;
     font-weight: bold;
     margin-top: 5px;
-
 }
 
 #read-more:hover {
     background-color: turquoise;
 }
 
+.father-actor-nerd {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: -40px;
+
+}
+
+.father-actor-nerd li {
+    list-style-type: none;
+}
+
+.father-actor-nerd li a img {
+    height: 250px;
+    width: 275px;
+    border: 2px solid #252525;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: .8;
+}
+
+.father-actor-nerd li a:hover img {
+    opacity: 1;
+}
+
+.father-actor-nerd li a span {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface';
+    color: black;
+    font-weight: 900;
+}
 footer div {
     display: grid;
     grid-template-columns: 1fr 1fr;
