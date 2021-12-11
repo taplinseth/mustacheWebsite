@@ -279,9 +279,114 @@ footer div ul li {
     opacity: 1;
 }
 
-.main-blog section {
+.main-blog {
     text-align: center;
-    margin-bottom: 50px;
+}
+
+#blog {
+    background-color: #252525;
+    color: white;
+    border: 10px solid #252525;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface';
+    width: 10%;
+    margin: 40px auto 30px auto;
+    font-size: 200%;
+}
+
+.main-blog section {
+    display: grid;
+    grid-template-columns: .9fr 1.2fr .9fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "... div1 ..."
+        "... div2 ..."
+        "... div3 ...";
+    margin-bottom: 40px;
+}
+
+.blog-div1 {
+    grid-area: div1;
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    border: 2px solid #252525;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.blog-div2 {
+    grid-area: div2;
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    border: 2px solid #252525;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.blog-div3 {
+    grid-area: div3;
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    border: 2px solid #252525;
+    height: 250px;
+}
+
+.main-blog section div img {
+    width: 300px;
+    height: 250px;
+    border-right: 2px solid #252525;
+    opacity: .8;
+}
+
+.main-blog img:hover {
+    opacity: 1;
+}
+
+.main-blog p {
+    margin-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.main-blog h2 {
+    text-transform: uppercase;
+}
+
+#read-this {
+    background-color: #252525;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface';
+    font-weight: 900;
+}
+
+#read-this:hover {
+    background-color: white;
+    color: #252525;
+    border: 2px solid #252525;
+}
+
+
+
+
+
+
+/* .main-blog {
+    text-align: center;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "... sub1 ...";
+    text-align: center;
+}
+
+.sub1 {
+    grid-area: sub1;
 }
 
 .main-blog h1 {
@@ -295,18 +400,23 @@ footer div ul li {
     font-size: 200%;
 }
 
-.main-blog section div {
+.main-blog div {
     border: 2px solid #252525;
-    width: 50%;
     margin: 20px auto 10px auto;
+    height: 250px;
 }
 
-.main-blog section div figure {
-    text-align: left;
+.main-blog figure {
     margin: 0;
 }
 
-.main-blog section div figure img {
+.main-blog figure img {
     width: 300px;
     height: 250px;
+    border-right: 2px solid #252525;
+    opacity: .8;
 }
+
+.main-blog figure img:hover {
+    opacity: 1;
+} */
