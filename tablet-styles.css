@@ -1,5 +1,6 @@
 @media (max-width: 900px) {
 
+    /* begin home page */
     #beacon {
         margin: -600px auto 25px auto;
         opacity: .8;
@@ -45,7 +46,7 @@
     .father-actor-nerd li {
         margin-bottom: 20px;
     }
-
+    /* end home page */
 
 
 

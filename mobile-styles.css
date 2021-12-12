@@ -1,4 +1,6 @@
 @media (max-width: 550px) {
+
+    /* begin header */
     header {
         height: 125px;
     }
@@ -7,20 +9,14 @@
         height: 90px;
     }
 
-    footer div ul li {
-        margin-top: 30px;
-    }
-
-    #twitter img, #facebook img, #googleplus img, #pinterest img {
-        height: 25px;
-        width: 25px;
-    }
-
     .header-logo div {
         font-size: 250%;
         margin-top: -30px;
     }
+    /* end header */
 
+
+    /* begin home page */
     .section1-home {
         height: 500px;
     }
@@ -38,10 +34,51 @@
         padding: 10px 10px 10px 10px;
     }
 
+    .section-about-me article h2 {
+        margin-left: 20px;
+        margin-right: 25px;
+        font-size: 14px;
+    }
+
+    .section-about-me p {
+        margin-left: 20px;
+        margin-right: 25px;
+        font-size: 10px;
+    }
+    /* end home page */
+
+
+    /* begin about page */
+    .about-page-main {
+        display: flex;
+    }
+
+    .section-about-me h1 {
+        font-size: 100%;
+    }
+
+    #about-image {
+        max-width: 70%;
+    }
+    /* end about page */
+
+
+    /* begin footer */
+    footer div ul li {
+        margin-top: 30px;
+    }
+
+    #twitter img, #facebook img, #googleplus img, #pinterest img {
+        height: 25px;
+        width: 25px;
+    }
+    /* end footer */
+
 }
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
 
+    /* begin header */
     header {
         height: 80px;
     }
@@ -49,16 +86,10 @@
     header img {
         height: 60px;
     }
+    /* end header */
 
-    footer div ul li {
-        margin-top: 50px;
-    }
 
-    #twitter img, #facebook img, #googleplus img, #pinterest img {
-        height: 12px;
-        width: 12px;
-    }
-
+    /* begin home page */
     .section1-home {
         height: 350px;
     }
@@ -79,4 +110,17 @@
     #read-more {
         padding: 5px 5px 5px 5px;
     }
+    /* end home page */
+
+
+    /* begin footer */
+    footer div ul li {
+        margin-top: 50px;
+    }
+
+    #twitter img, #facebook img, #googleplus img, #pinterest img {
+        height: 12px;
+        width: 12px;
+    }
+    /* end footer */
 }
