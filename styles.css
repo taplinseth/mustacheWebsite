@@ -258,7 +258,6 @@ footer div ul li {
 .main-gallery h1 {
     background-color: #252525;
     color: white;
-    color: white;
     border: 10px solid #252525;
     text-transform: uppercase;
     font-family: 'Abril Fatface';
@@ -368,55 +367,58 @@ footer div ul li {
     border: 2px solid #252525;
 }
 
-
-
-
-
-
-/* .main-blog {
-    text-align: center;
-}
-
-.blog-container {
+.form {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: .9fr 1.2fr .9fr;
     grid-template-areas: 
-        "... sub1 ...";
+    "... form ...";
+}
+
+form {
+    grid-area: form;
     text-align: center;
 }
 
-.sub1 {
-    grid-area: sub1;
-}
-
-.main-blog h1 {
+form h1 {
     background-color: #252525;
     color: white;
     border: 10px solid #252525;
     text-transform: uppercase;
     font-family: 'Abril Fatface';
-    width: 10%;
-    margin: 40px auto 10px auto;
+    width: 80%;
+    margin: 40px auto 35px auto;
     font-size: 200%;
 }
 
-.main-blog div {
+#name, #address, #email, #phone-number{
+    text-align: center;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 35px;
+}
+
+#message {
+    text-align: center;
+    width: 100%;
+    height: 215px;
+    margin-bottom: 35px;
+}
+
+#send-contact {
+	background: #252525;
+    color: white;
+	font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 40px;
+    height: 60px;
+    width: 100px;
+    font-family: 'Abril Fatface';
+}
+
+#send-contact:hover {
+    background-color: white;
+    color: #252525;
     border: 2px solid #252525;
-    margin: 20px auto 10px auto;
-    height: 250px;
+    cursor: pointer;
 }
-
-.main-blog figure {
-    margin: 0;
-}
-
-.main-blog figure img {
-    width: 300px;
-    height: 250px;
-    border-right: 2px solid #252525;
-    opacity: .8;
-}
-
-.main-blog figure img:hover {
-    opacity: 1;
-} */
