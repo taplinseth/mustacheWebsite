@@ -59,20 +59,20 @@ header nav a:hover {
     margin-top: 40px;
 }
 
-.section1-home h1 {
+#beacon {
     color: black;
     text-align: center;
     background-color: white;
     border: solid 10px white;
     margin-top: -500px;
     margin-left: 50%;
-    height: 4%;
-    width: 27%;
+    margin-bottom: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: 900;
     font-family: 'Abril Fatface';
     font-size: 180%;
+    max-width: 27%;
 }
 
 #sub-text1, #sub-text2, #sub-text3 {
@@ -93,20 +93,17 @@ header nav a:hover {
 }
 #sub-text3 {
     width: 17%;
+    margin-bottom: 25px;
 }
 
 #read-more {
-    display: block;
     color: white;
     text-align: center;
     background-color: #0AA39C;
     margin-top: -35%;
     margin-left: 50%;
-    height: 6%;
-    width: 8%;
-    padding-top: 20px;
+    padding: 20px 20px 20px 20px;
     font-weight: bold;
-    margin-top: 5px;
 }
 
 #read-more:hover {
@@ -114,7 +111,7 @@ header nav a:hover {
 }
 
 .father-actor-nerd {
-    height: 300px;
+    height: 100%;
     display: flex;
     justify-content: center;
     margin-left: -40px;
