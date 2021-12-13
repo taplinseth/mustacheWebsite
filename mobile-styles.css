@@ -118,7 +118,7 @@
 
     /* begin contact page */
     form h1 {
-        font-size: 150%;
+        font-size: 100%;
     }
     /* end contact page */
 
@@ -139,6 +139,28 @@
     }
     /* end gallery single */
 
+
+    /* begin blog single */
+    #blog-single {
+        font-size: 100%;
+    }
+
+    .blog-div1-single {
+        height: 180px;
+    }
+
+    .main-blog-single section div img {
+        height: 180px;
+    }
+
+    .main-blog-single article h2 {
+        font-size: 100%;
+    }
+
+    .main-blog-single article p {
+        font-size:15px;
+    }
+    /* end blog single */
 
     /* begin footer */
     footer div ul li {
@@ -216,6 +238,15 @@
     }
     /* end gallery single */
 
+    /* begin blog single */
+    .blog-div1-single {
+        height: 130px;
+    }
+
+    .main-blog-single section div img {
+        height: 130px;
+    }
+    /* end blog single */
 
     /* begin footer */
     footer div ul li {
