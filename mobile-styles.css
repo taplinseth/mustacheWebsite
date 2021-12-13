@@ -123,6 +123,23 @@
     /* end contact page */
 
 
+    /* begin gallery single */
+    .section-gallery-single h1 {
+        font-size: 100%;
+        width: 30%;
+    }
+        
+    .section-gallery-single h2 {
+        font-size: 75%;
+        width: 20%;
+    }
+        
+    .section-gallery-single p {
+        font-size: 15px;
+    }
+    /* end gallery single */
+
+
     /* begin footer */
     footer div ul li {
         margin-top: 30px;
@@ -181,6 +198,23 @@
         font-size: 80%;
     }
     /* end contact page */
+
+
+    /* begin gallery single */
+    .section-gallery-single h1 {
+        font-size: 75%;
+        width: 30%;
+    }
+    
+    .section-gallery-single h2 {
+        font-size: 50%;
+        width: 20%;
+    }
+    
+    .section-gallery-single p {
+        font-size: 10px;
+    }
+    /* end gallery single */
 
 
     /* begin footer */

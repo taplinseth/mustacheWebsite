@@ -81,4 +81,20 @@
     }
     /* end blog page */
 
+    /* begin gallery single */
+    .section-gallery-single h1 {
+        font-size: 125%;
+        width: 40%;
+    }
+
+    .section-gallery-single h2 {
+        font-size: 100%;
+        width: 30%;
+    }
+
+    .section-gallery-single p {
+        font-size: 15px;
+    }
+    /* end gallery single */
+
 }
