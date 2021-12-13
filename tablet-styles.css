@@ -48,6 +48,37 @@
     }
     /* end home page */
 
+    /* begin gallery page */
+    .main-gallery h1 {
+        font-size: 125%;
+    }
+    /* end gallery page */
 
+
+    /* begin blog page */
+    .blog-div1, .blog-div2, .blog-div3 {
+        max-width: 550px;
+        height: 150px;
+    }
+
+    .main-blog section div img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .main-blog h2 {
+        font-size: 15px;
+    }
+
+    .main-blog p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    #read-this {
+        font-size: 15px;
+        padding: 5px 10px 5px 10px;
+    }
+    /* end blog page */
 
 }
