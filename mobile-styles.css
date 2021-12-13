@@ -116,6 +116,12 @@
     }
     /* end blog page */
 
+    /* begin contact page */
+    form h1 {
+        font-size: 150%;
+    }
+    /* end contact page */
+
 
     /* begin footer */
     footer div ul li {
@@ -165,6 +171,16 @@
         padding: 5px 5px 5px 5px;
     }
     /* end home page */
+
+    /* begin contact page */
+    form {
+        max-width: 200px;
+    }
+    
+    form h1 {
+        font-size: 80%;
+    }
+    /* end contact page */
 
 
     /* begin footer */
