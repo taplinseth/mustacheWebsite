@@ -13,6 +13,96 @@
         font-size: 250%;
         margin-top: -30px;
     }
+
+    header nav {
+        display: none;
+    }
+
+    #toggle {
+        border-radius: 15%;
+        background: url(images/square.png);
+        background-size: cover;
+        margin-left: 46%;
+        height: 45px;
+        width: 45px;
+    }
+
+    /* #content {
+        display: grid !important;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "row1"
+            "row2"
+            "row3"
+            "row4"
+            "row5";
+        height: 100px;
+        position: relative;
+        z-index: 1;
+    } */
+
+    /* #row1 {
+        grid-area: row1;
+        background-color: #0AA39C;
+        width: 150px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        text-align: center;
+        color: black;
+        border: 1px solid white;
+    }
+
+    #row2 {
+        grid-area: row2;
+        background-color: #0AA39C;
+        width: 150px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: black;
+        border: 1px solid white;
+    }
+
+    #row3 {
+        grid-area: row3;
+        background-color: #0AA39C;
+        width: 150px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: black;
+        border: 1px solid white;
+    }
+
+    #row4 {
+        grid-area: row4;
+        background-color: #0AA39C;
+        width: 150px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: black;
+        border: 1px solid white;
+    } 
+
+    #row5 {
+        grid-area: row5;
+        background-color: #0AA39C;
+        width: 150px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        color: black;
+        border: 1px solid white;
+    } */
+
     /* end header */
 
 
