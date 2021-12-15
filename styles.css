@@ -50,6 +50,10 @@ header nav a:hover {
 .current-page {
     color:#0AA39C;
 }
+
+dropdown {
+    display: none;
+}
 /* end header */
 
 
