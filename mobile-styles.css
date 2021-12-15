@@ -35,21 +35,26 @@
       dropdown{
         display: inline-block;
         margin: 1px 0px; 
+        width: 100%;
       }
-      dropdown label, dropdown ul li{
-        display: block;
-        width: 200px;
-        background: #ECF0F1;
+
+      dropdown label {
         padding: 15px 20px;
       }
+
+      dropdown label, dropdown ul li{
+        display: block;
+        width: 100%px;
+        background: #ECF0F1;
+      }
       dropdown label:hover, dropdown ul li:hover{
-        background: #1ABC9C;
+        background: #0AA39C;
         color: white;
         cursor: pointer;
       }
       dropdown label{
-        color: #1ABC9C;
-        border-left: 4px solid #1ABC9C;
+        color: #0AA39C;
+        border-left: 4px solid #0AA39C;
         border-radius: 0 5px 0 0; 
         position: relative;
         z-index: 2;
@@ -59,13 +64,13 @@
       }
       dropdown input ~ ul{
         position: relative;
-        visibility: visible;
+        visibility: hidden;
         opacity: 0;
         top: -20px;
         z-index: 1;
       }
       dropdown input:checked + label{
-        background: #1ABC9C;
+        background: #0AA39C;
         color: white;
       }
       
@@ -105,20 +110,33 @@
       }
 
     #row1 {
-          color: #252525;
+        display: block;
+        color: #252525;
+        padding: 15px 20px;
     }
 
     #row2 {
+        display: block;
         color: #252525;
+        padding: 15px 20px;
     }
+
     #row3 {
+        display: block;
         color: #252525;
+        padding: 15px 20px;
     }
+
     #row4 {
+        display: block;
         color: #252525;
+        padding: 15px 20px;
     }
+
     #row5 {
+        display: block;
         color: #252525;
+        padding: 15px 20px;
     }
 
     /* end header */
